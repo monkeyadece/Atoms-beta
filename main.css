@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Karla", sans-serif;
+    color: white;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+img {
+    pointer-events: none;
+}
+
+body {
+    color: #ffffff;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: #18181b !important;
+    background-image: radial-gradient(
+            at 1% 1%,
+            hsl(225.74deg 77% 40%) 0,
+            transparent 59%
+        ),
+        radial-gradient(at 82% 65%, hsl(217.94, 75%, 18%) 0, transparent 55%) !important;
+    background-position: center;
+    background-size: cover;
+    padding-top: 35px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.headers {
+    text-shadow: #f00 1px 0 30px;
+    text-align: center;
+}
+
+u {
+    text-decoration: #f00 wavy underline;
+}
+
+.headers-b {
+    padding: 20px;
+    margin: 15px;
+    background-color: #303030;
+    border-style: solid;
+    border-color: red;
+    border-radius: 20px;
+}
+
+.content {
+    margin-top: 5%;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.content h2 {
+    font-size: 60px;
+}
+
+.content p {
+    margin-top: 10px;
+    line-height: 25px;
+    font-size: 20px;
+}
+
+.link {
+    margin-top: 30px;
+}
+
+.hire {
+    color: #000;
+    text-decoration: none;
+    background: #fff;
+    padding: 9px 25px;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: 0.5s;
+}
+
+.link .hire:hover {
+    background: darkred;
+    border: transparent solid #fff;
+    color: #fff;
+  }
+
+.image {
+    width: 80%; /* Adjust width as needed */
+    margin-left: 20px; /* Adjust margin as needed */
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.footer {
+    border-radius: 15px;
+    display: flex;
+    position: fixed;
+    top: 90%;
+    bottom: 0;
+    width: 85%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 18px 20px;
+}
+
+
+footer > p {
+    font-weight: bold;
+    transition: transform .2s;
+    margin: auto;
+}
+
+footer > p > a {
+    text-decoration: none;
+}
+
+footer > p:hover {
+    color: red;
+    transform: scale(1.1);
+    font-weight: bolder;
+    cursor: default;
+    user-select: none;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 4px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: black;
+  }
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: blue;
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #00349b;
+  }
+
+  ::selection {
+    color: blue;
+  }
+
